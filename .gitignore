@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Hackathon specific ---
+
+# Jupyter notebooks junk
+.ipynb_checkpoints/
+
+# Data (don’t track raw files)
+data/*
+!data/.gitkeep
